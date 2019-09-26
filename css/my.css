@@ -1,0 +1,83 @@
+.post-preview
+{
+	border:1px dashed #CCC;
+	border-radius:5px;
+	padding:5px;
+}
+.post_title
+{
+	font-size:25px;
+	font-weight:bold;
+}
+#latest
+{
+	border:1px dashed #CCC;
+	border-radius:5px;
+	margin-top:1em;
+	padding:10px;
+}
+#latest h2
+{
+	text-decoration:underline;
+}
+.post
+{
+	border-bottom:1px solid #888;
+}
+.post .post-meta
+{
+	font-size:10px;
+	width:120px;
+}
+.button-search
+{
+	margin-top:10px;
+}
+.post .category
+{
+	font-size:10px;
+}
+.post .post_title
+{
+	font-size:15px;
+	margin-bottom:10px;
+}
+
+.post .post_content
+{
+	font-size:12px;
+	padding:0;
+	margin:0;
+}
+.post_content
+{
+	font-size:20px;
+}
+
+.category
+{
+	font-style:italic;
+	float:right;
+}
+.post-meta
+{
+	float:left;
+}
+.clear
+{
+	clear:both;
+}
+.post_wrapper
+{
+	font-size:17px;
+}
+
+#kategorije ul {
+	list-style: none;
+	padding:0;
+}
+#kategorije ul li {
+	width:100%;
+	margin-top:10px;
+	border-bottom:1px solid #333;
+}

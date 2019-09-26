@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "username":"nikola",
+    "idUloga":2
+  },
+  {
+    "id": 2,
+    "username":"nikola",
+    "idUloga":3
+  }
+]

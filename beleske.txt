@@ -1,0 +1,31 @@
+<li>Parčanje template-a
+					<ol>
+						<li>Kreirati folder "views".</li>
+						<li>Podeliti stranicu "index.php" na optimalne celine. <b>(include, require)</b> </li>
+						<li>Podeliti stranicu ostale stranice na optimalne celine.</li>
+					</ol>
+				</li>
+				<li>
+					Super globalne promenljive
+					<ol>
+						<li>Proslediti stranici "index.php" kroz URL parametar "page".</li>
+						<li>Otići u Inspect Element i otvoriti Network tab. (Refresh stranice)</li>
+						<li>Kliknuti na "index.php" u Network tabu.</li>
+						<li>Pogledati Headers, Response i Preview.</li>
+						<li>Pogledati Query Strings u Headers tabu.</li>
+						<li>Dohvatiti prosledjeni parametar "page" na stranici "index.php". <b>($_GET)</b></li>
+						<li>Odštampati sa var_dump() vrednost super globalne promenljive <b>$_GET</b>.</li>
+						<li>Promeniti navigaciju, tako da linkovi vode ka odgovoarajucim stranicama.</li>
+						<li>Na osnovu vrednosti parametra page prosledjenog stranici "index.php", učitati odgovarajući centralni deo.</li>	
+						
+						
+						
+						<li>Odštampati URL trenutne stranice. <b>($_SERVER)</b> </li>
+						<li>Odštampati sa var_dump() vrednost super globalne promenljive <b>$_SERVER</b>.</li>
+						<li>Odštampati IP adresu sa koje korisnik dolazi.</li>
+					</ol>
+				</li>
+				
+				https://www.php.net/manual/en/language.variables.superglobals.php
+				
+				https://httpstatuses.com/
